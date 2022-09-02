@@ -21,7 +21,7 @@ body {
 }
 
 .container ol li {
-    background: #ffe5e5;
+    background: #eadea4;
     color: rgb(0, 0, 0);
     padding: 5px;
     margin-top: 5px;
@@ -44,4 +44,12 @@ body {
     margin-top: 10px;
     margin-left: 30px;
 
+}
+
+footer {
+    padding: 20px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 30px;
 }
