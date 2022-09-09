@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="font-awesome.css">
+</head>
+
+<body onload="render_list(null, null)">
+
+    <!--main central body-->
+    <section>
+        <br>
+            <div id="heading">
+                <h1>AI-Based Lawyer</h1>
+            </div>
+            
+            <br><button onclick="render_list(null, null)"><b>Shuffle Requirements</b></button>
+            &nbsp;&nbsp;
+            <button onclick="sortList()"><b>Sort Requirements</b></button><br>
+
+            <br><h5><i>Please enter number of hours to calculate the rate per hour</i><br></h5><input type="number" id="input"><br><br>
+                <button id="rate_btn" onclick="display_rate()">Calculate</button>
+                <div class='rate-hour'>
+                    <p>
+                        <b>Rate / hour: </b>
+                        <span id="rate">_____</span>
+                    </p>
+                </div> 
+           
+            <div class="row" id="row">
+                <div class="column" id="col1">
+                    
+                    <div>
+                        <br>
+                        <button onclick="displayFR()"><b>Functional Requirements</b></button><br>
+                    </div>
+
+                <div id="func-list">
+                    <div id="root">
+                    </div>
+
+                </div>
+
+                <div class="column" id="col2">
+                    
+                    <br>
+                    <div>
+                        <button onclick="displayNFR()"><b>Non Functional Requirements</b></button><br>
+                    </div>
+
+                    <div id="nonfunc-list">
+                        <div id="root1">
+                        </div>
+                        <br>
+                    </div>
+                    <br>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <div class="w3-row w3-padding-32">
+
+        <div class="w3-third">
+            <img src="Taimur.jpg" class="center" alt="Author: Taimur Shahzad Gill" style="width:50%">
+            <p class="center">Taimur Shahzad Gill</p>
+        </div>
+
+    </div>    
+
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+        <a href="https://www.facebook.com/taimuurshahzaad/"> <i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+        <a href="https://twitter.com/taimuurshahzad"> <i class="fa fa-twitter w3-hover-opacity"></i></a>
+        <a href="https://www.linkedin.com/in/taimur-shahzad-gill/"> <i class="fa fa-linkedin w3-hover-opacity"></i></a>
+        <p class="w3-medium">Discord: taymuur#6225</p>
+        <p class="w3-medium" Taimur Shahzad Gill></p>
+        <p class="w3-medium"><a href="mailto:taimuur.shahzad.com">taimuur.shahzad.com</a></p>
+        
+    </footer>
+    
+
+</body>
+
+
+
+</html>
