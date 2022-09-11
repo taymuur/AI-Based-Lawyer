@@ -7,7 +7,7 @@ the PPC (Pakistan Penal Code) and Constitution. This is especially useful for pe
 and even urban women looking to get a consultation privately
 
 ## Frameworks
-* HTML 5
+* HTML5
 * CSS3
 * JavaScript
 
